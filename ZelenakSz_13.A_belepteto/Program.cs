@@ -12,10 +12,13 @@
                 Tanulo diak = new Tanulo(sor[0], TimeOnly.Parse(sor[1]), int.Parse(sor[2]));
                 diakok.Add(diak);
             }
-            for (int i = 0;  i < diakok.Count; i++)
-            {
-                Console.WriteLine(diakok[i].Ido);
-            }
+            Console.WriteLine($"2. feladat");
+            //Kihasználhatom, hogy az adatok időrendi sorrendben vannak.
+            //Az első esemény belépés, az utolsó kilépés.
+            //Az adatok helyességét nem kell ellenőriznem.
+            TimeOnly elso = diakok[0].Ido;
+            TimeOnly utolso = diakok[diakok.Count - 1].Ido;
+            Console.WriteLine($"Az első tanuló belépésének ideje: {elso}\nAz utolsó tanuló kilépésének ideje: {utolso}");
         }
     }
 }
