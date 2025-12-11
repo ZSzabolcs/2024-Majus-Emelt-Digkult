@@ -1,0 +1,15 @@
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\bin\Debug\net8.0\ZelenakSz_13.A_belepteto.exe
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\bin\Debug\net8.0\ZelenakSz_13.A_belepteto.deps.json
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\bin\Debug\net8.0\ZelenakSz_13.A_belepteto.runtimeconfig.json
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\bin\Debug\net8.0\ZelenakSz_13.A_belepteto.dll
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\bin\Debug\net8.0\ZelenakSz_13.A_belepteto.pdb
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ZelenakSz_13.A_belepteto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ZelenakSz_13.A_belepteto.AssemblyInfoInputs.cache
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ZelenakSz_13.A_belepteto.AssemblyInfo.cs
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ZelenakSz_13.A_belepteto.csproj.CoreCompileInputs.cache
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ZelenakSz_13.A_belepteto.sourcelink.json
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ZelenakSz_13.A_belepteto.dll
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\refint\ZelenakSz_13.A_belepteto.dll
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ZelenakSz_13.A_belepteto.pdb
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ZelenakSz_13.A_belepteto.genruntimeconfig.cache
+C:\Users\zelenaksz\source\repos\ZelenakSz_13.A_belepteto\ZelenakSz_13.A_belepteto\obj\Debug\net8.0\ref\ZelenakSz_13.A_belepteto.dll

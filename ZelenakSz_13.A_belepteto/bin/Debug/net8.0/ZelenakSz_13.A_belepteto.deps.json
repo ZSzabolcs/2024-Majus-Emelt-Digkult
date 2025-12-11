@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ZelenakSz_13.A_belepteto/1.0.0": {
+        "runtime": {
+          "ZelenakSz_13.A_belepteto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZelenakSz_13.A_belepteto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

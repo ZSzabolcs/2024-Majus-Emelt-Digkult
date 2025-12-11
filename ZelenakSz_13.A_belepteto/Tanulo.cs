@@ -8,22 +8,19 @@ namespace ZelenakSz_13.A_belepteto
 {
     internal class Tanulo
     {
-        private string kod;
-        private int ora;
-        private int perc;
+        private string? kod;
+        private TimeOnly ido;
         private int szam;
 
-        public Tanulo(string kod, int ora, int perc, int szam)
+        public Tanulo(string? kod, TimeOnly ido, int szam)
         {
             this.Kod = kod;
-            this.Ora = ora;
-            this.Perc = perc;
+            this.Ido = ido;
             this.Szam = szam;
         }
 
-        public string Kod { get => kod; set => kod = value; }
-        public int Ora { get => ora; set => ora = value; }
-        public int Perc { get => perc; set => perc = value; }
+        public string? Kod { get => kod; set => kod = value; }
+        public TimeOnly Ido { get => ido; set => ido = value; }
         public int Szam { get => szam; set => szam = value; }
     }
 }
