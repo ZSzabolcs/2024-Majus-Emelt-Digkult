@@ -20,18 +20,13 @@
             TimeOnly utolso = diakok[diakok.Count - 1].Ido;
             Console.WriteLine($"Az első tanuló belépésének ideje: {elso}\nAz utolsó tanuló kilépésének ideje: {utolso}");
 
-            List<Tanulo> kesok = new List<Tanulo>();
+            StreamWriter sw = new StreamWriter("kesok.txt");
             foreach ( var item in diakok)
             {
                 if (item.Ido.Hour >= 7 && item.Ido.Minute > 50 && item.Ido.Hour <= 8 && item.Ido.Hour <= 15 && item.Szam == 1)
                 {
-                    kesok.Add(item);
+                    sw.WriteLine($"{item.Kod} {item.Ido}");
                 }
-            }
-            StreamWriter sw = new StreamWriter("kesok.txt");
-            foreach (var item in kesok)
-            {
-                sw.WriteLine($"{item.Kod} {item.Ido}");
             }
             sw.Close();
         }
