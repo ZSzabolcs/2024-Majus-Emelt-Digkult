@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZelenakSz_13.A_belepteto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97a30ebf24e81b6fd1300025e4585b708f0a0038")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13c3d3f702562b18c4ade056aab74591f4d729bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZelenakSz_13.A_belepteto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZelenakSz_13.A_belepteto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

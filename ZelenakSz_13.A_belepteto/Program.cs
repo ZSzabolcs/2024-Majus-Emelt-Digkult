@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader("C:\\Users\\zelenaksz\\Desktop\\cucc\\ZelenakSz_13.A_belepteto\\bedat.txt");
+            StreamReader sr = new StreamReader("bedat.txt");
             List<Tanulo> diakok = new List<Tanulo>();
             while (!sr.EndOfStream)
             {
@@ -28,7 +28,7 @@
                     kesok.Add(item);
                 }
             }
-            StreamWriter sw = new StreamWriter("C:\\Users\\zelenaksz\\Desktop\\cucc\\ZelenakSz_13.A_belepteto\\kesok.txt");
+            StreamWriter sw = new StreamWriter("kesok.txt");
             foreach (var item in kesok)
             {
                 sw.WriteLine($"{item.Kod} {item.Ido}");
