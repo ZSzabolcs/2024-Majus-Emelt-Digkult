@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zelenaksz\\source\\repos\\ZelenakSz_13.A_belepteto\\ZelenakSz_13.A_belepteto\\ZelenakSz_13.A_belepteto.csproj",
+      "projectUniqueName": "C:\\Users\\zelenaksz\\Desktop\\cucc\\ZelenakSz_13.A_belepteto\\ZelenakSz_13.A_belepteto.csproj",
       "projectName": "ZelenakSz_13.A_belepteto",
-      "projectPath": "C:\\Users\\zelenaksz\\source\\repos\\ZelenakSz_13.A_belepteto\\ZelenakSz_13.A_belepteto\\ZelenakSz_13.A_belepteto.csproj",
+      "projectPath": "C:\\Users\\zelenaksz\\Desktop\\cucc\\ZelenakSz_13.A_belepteto\\ZelenakSz_13.A_belepteto.csproj",
       "packagesPath": "C:\\Users\\zelenaksz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zelenaksz\\source\\repos\\ZelenakSz_13.A_belepteto\\ZelenakSz_13.A_belepteto\\obj\\",
+      "outputPath": "C:\\Users\\zelenaksz\\Desktop\\cucc\\ZelenakSz_13.A_belepteto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

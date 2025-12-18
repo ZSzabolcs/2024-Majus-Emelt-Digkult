@@ -29,6 +29,16 @@
                 }
             }
             sw.Close();
+
+            int ebedDb = 0;
+            foreach (var item in diakok)
+            {
+                if (item.Szam == 3)
+                {
+                    ebedDb++;
+                }
+            }
+            Console.WriteLine($"\n4. feladat\nA menzán aznap {ebedDb} db tanuló ebédelt.");
         }
     }
 }
