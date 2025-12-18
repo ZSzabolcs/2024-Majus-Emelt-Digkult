@@ -39,6 +39,15 @@
                 }
             }
             Console.WriteLine($"\n4. feladat\nA menzán aznap {ebedDb} db tanuló ebédelt.");
+
+            int kolcsonDb = 0;
+            foreach (var item in diakok)
+            {
+                if (item.Szam == 4)
+                {
+                    kolcsonDb++;
+                }
+            }
         }
     }
 }
