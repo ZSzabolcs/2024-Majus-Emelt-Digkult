@@ -50,9 +50,16 @@
                     kodok.Add(item.Kod.ToString());
                 }
             }
-            Console.WriteLine($"\n5. feladat\nAznap {kolcsonDb} tanuló kölcsönzött a könyvtárban.");
-
-            //A menzán legfeljebb egyszer ebédelhetnek, így azt nem kell ellenőrizni.
+            string message = "Ugyanannyian kölcsönöztek, ahányan ebédeltek.";
+            if (ebedDb > kolcsonDb)
+            {
+                message = "Nem voltak többen, mint a menzán.";
+            }
+            if (ebedDb < kolcsonDb)
+            {
+                message = "Többen voltak, mint a menzán.";
+            }
+            Console.WriteLine($"\n5. feladat\nAznap {kolcsonDb} tanuló kölcsönzött a könyvtárban.\n{message}");
         }
     }
 }
