@@ -38,16 +38,21 @@
                     ebedDb++;
                 }
             }
-            Console.WriteLine($"\n4. feladat\nA menzán aznap {ebedDb} db tanuló ebédelt.");
+            Console.WriteLine($"\n4. feladat\nA menzán aznap {ebedDb} tanuló ebédelt.");
 
             int kolcsonDb = 0;
+            List<string> kodok = new List<string>();
             foreach (var item in diakok)
             {
-                if (item.Szam == 4)
+                if (item.Szam == 4 && !kodok.Contains(item.Kod))
                 {
                     kolcsonDb++;
+                    kodok.Add(item.Kod.ToString());
                 }
             }
+            Console.WriteLine($"\n5. feladat\nAznap {kolcsonDb} tanuló kölcsönzött a könyvtárban.");
+
+            //A menzán legfeljebb egyszer ebédelhetnek, így azt nem kell ellenőrizni.
         }
     }
 }
