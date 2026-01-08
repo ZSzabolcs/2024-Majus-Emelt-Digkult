@@ -60,6 +60,17 @@
                 message = "Többen voltak, mint a menzán.";
             }
             Console.WriteLine($"\n5. feladat\nAznap {kolcsonDb} tanuló kölcsönzött a könyvtárban.\n{message}");
+
+            Console.WriteLine("\n6. feladat\nAz érintett tanulók:");
+
+            List<string> bejelentkezett = new List<string>();
+            foreach (var item in diakok)
+            {
+                if (item.Ido.Hour >= 10 && item.Ido.Minute > 50 && item.Ido.Hour <= 11 && item.Ido.Minute == 0 && item.Szam == 1)
+                {
+
+                }
+            }
         }
     }
 }
