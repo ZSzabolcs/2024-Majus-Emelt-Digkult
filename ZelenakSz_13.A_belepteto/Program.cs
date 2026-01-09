@@ -103,6 +103,10 @@
                         break;
                     }
                 }
+                if (helytelen)
+                {
+                    Console.WriteLine("Ilyen azonosítójú tanuló aznap nem volt az iskolában.\nKérem a tanuló azonosítóját: ");
+                }
             } while (helytelen);
 
             Console.ReadKey();
