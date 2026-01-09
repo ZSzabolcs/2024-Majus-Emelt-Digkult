@@ -88,6 +88,23 @@
             }
             eredmeny.Sort();
             Console.WriteLine(string.Join(" ", eredmeny));
+
+            Console.WriteLine("\n7. feladat\nKérem a tanuló azonosítóját: ");
+            string? azonosito = "";
+            bool helytelen = true;
+            do
+            {
+                azonosito = Console.ReadLine();
+                foreach (var item in diakok)
+                {
+                    if (item.Kod.ToString() == azonosito.ToString())
+                    {
+                        helytelen = false;
+                        break;
+                    }
+                }
+            } while (helytelen);
+
             Console.ReadKey();
         }
     }
