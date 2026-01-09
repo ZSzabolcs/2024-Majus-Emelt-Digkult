@@ -109,8 +109,8 @@
                 }
             } while (helytelen);
 
-            TimeOnly belepes;
-            TimeOnly kilepes;
+            TimeOnly belepes = new TimeOnly();
+            TimeOnly kilepes = new TimeOnly();
             foreach (var item in diakok)
             {
                 if (item.Kod.ToString() == azonosito.ToString() && item.Szam == 1)
@@ -124,12 +124,10 @@
                 if (item.Kod.ToString() == azonosito.ToString() && item.Szam == 2)
                 {
                     kilepes = item.Ido;
-                    break;
                 }
             }
-            int kulonbsegOra = kilepes.Hour - belepes.Hour;
-            int kulonbsegPerc = kilepes.Minute - belepes.Minute;
-            Console.WriteLine($"A tanuló első belépése és utolsó kilépése között {kulonbsegOra} óra {kulonbsegPerc} perc telt el.");
+            TimeSpan kulonbseg = kilepes - belepes;
+            Console.WriteLine($"A tanuló első belépése és utolsó kilépése között {kulonbseg.Hours} óra {kulonbseg.Minutes} perc telt el.");
 
             Console.ReadKey();
         }
