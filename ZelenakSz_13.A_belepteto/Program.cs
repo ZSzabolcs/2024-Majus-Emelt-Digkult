@@ -109,6 +109,28 @@
                 }
             } while (helytelen);
 
+            TimeOnly belepes;
+            TimeOnly kilepes;
+            foreach (var item in diakok)
+            {
+                if (item.Kod.ToString() == azonosito.ToString() && item.Szam == 1)
+                {
+                    belepes = item.Ido;
+                    break; //Az ismétlődő belépések anomáliájának elkerülése végett
+                }
+            }
+            foreach (var item in diakok)
+            {
+                if (item.Kod.ToString() == azonosito.ToString() && item.Szam == 2)
+                {
+                    kilepes = item.Ido;
+                    break;
+                }
+            }
+            int kulonbsegOra = kilepes.Hour - belepes.Hour;
+            int kulonbsegPerc = kilepes.Minute - belepes.Minute;
+            Console.WriteLine($"A tanuló első belépése és utolsó kilépése között {kulonbsegOra} óra {kulonbsegPerc} perc telt el.");
+
             Console.ReadKey();
         }
     }
