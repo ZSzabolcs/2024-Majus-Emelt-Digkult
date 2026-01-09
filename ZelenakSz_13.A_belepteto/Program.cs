@@ -64,13 +64,31 @@
             Console.WriteLine("\n6. feladat\nAz érintett tanulók:");
 
             List<string> bejelentkezett = new List<string>();
+            List<string> eredmeny = new List<string>();
             foreach (var item in diakok)
             {
-                if (item.Ido.Hour >= 10 && item.Ido.Minute > 50 && item.Ido.Hour <= 11 && item.Ido.Minute == 0 && item.Szam == 1)
+                if (((item.Ido.Hour == 10 && item.Ido.Minute > 50) || (item.Ido.Hour == 11 && item.Ido.Minute == 0)) && item.Szam == 1)
                 {
-
+                    if (bejelentkezett.Contains(item.Kod))
+                    {
+                        if (!eredmeny.Contains(item.Kod))
+                        {
+                            eredmeny.Add(item.Kod);
+                        }
+                    }
+                }
+                if (!bejelentkezett.Contains(item.Kod) && item.Szam == 1)
+                {
+                    bejelentkezett.Add(item.Kod);
+                }
+                else if (item.Szam == 2)
+                {
+                    bejelentkezett.Remove(item.Kod);
                 }
             }
+            eredmeny.Sort();
+            Console.WriteLine(string.Join(" ", eredmeny));
+            Console.ReadKey();
         }
     }
 }
